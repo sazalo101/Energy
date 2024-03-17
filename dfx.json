@@ -1,0 +1,20 @@
+{
+  "canisters": {
+    "Energy_backend": {
+      "build": "npx azle Energy_backend",
+      "candid": "src/Energy_backend/Energy_backend.did",
+      "gzip": true,
+      "main": "src/Energy_backend/src/index.ts",
+      "type": "custom",
+      "wasm": ".azle/Energy_backend/Energy_backend.wasm"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
